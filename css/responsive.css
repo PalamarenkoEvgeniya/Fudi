@@ -1,0 +1,220 @@
+@media screen and (max-width: 1230px) {
+  [class*="__container"] {
+    max-width: 970px;
+  }
+  .block {
+    padding: 40px 0 40px 0;
+  }
+  .block > li {
+    padding: 0 0 30px 0;
+  }
+  .block li:last-child {
+    padding: 0;
+  }
+  .app__block {
+    padding: 20px 0 0 0;
+  }
+  .block-text {
+    padding: 0 0 25px 0;
+  }
+  .app-img {
+    margin: 0 40px 0 0;
+  }
+  .cuisines {
+    padding: 80px 0 0 0;
+  }
+}
+
+@media screen and (max-width: 991.98px) {
+  [class*="__container"] {
+    max-width: 750px;
+  }
+  .block-content:not(:last-child) {
+    margin: 0 20px 0 0;
+  }
+  .app {
+    padding-top: 80px;
+  }
+  .app__content {
+    min-height: 500px;
+  }
+  .app__content .app-img {
+    display: none;
+  }
+  .block-text {
+    padding: 0 0 35px 0;
+  }
+  .facts__content {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+  }
+  .facts__content .facts__block {
+    width: 130px;
+  }
+  .facts__content .facts__block .facts__data {
+    font-size: 24px;
+    line-height: 18px;
+  }
+  .facts__content .facts__block .facts__text {
+    font-size: 14px;
+    line-height: 22px;
+  }
+}
+
+@media screen and (max-width: 767.98px) {
+  [class*="__container"] {
+    max-width: none;
+    padding: 0 40px;
+  }
+  .menu__burger-nav {
+    width: 100%;
+  }
+  .get-started {
+    min-height: 780px;
+  }
+  .get-started .get-started__subtitle {
+    font-size: 25px;
+  }
+  .get-started .get-started__title {
+    font-size: 70px;
+  }
+  .get-started .get-started__btn {
+    padding: 18px 60px;
+  }
+  .information__container {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    min-height: 900px;
+  }
+  .block {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .block .block-content:not(:last-child) {
+    margin: 0;
+  }
+  .block .block-content .block__text {
+    line-height: 20px;
+  }
+  .app {
+    padding: 70px 0 30px 0;
+  }
+  .slide__review {
+    font-size: 26px;
+    line-height: 32px;
+  }
+  .slide__author {
+    font-size: 14px;
+    line-height: 32px;
+  }
+  .cuisines {
+    padding: 70px 0 0 0;
+  }
+  .choies {
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+  .facts {
+    padding: 20px 0 10px 0;
+  }
+  .facts .facts__container {
+    min-height: 140px;
+  }
+  .facts__block {
+    padding: 0 5px 10px 5px;
+  }
+  .facts__block .facts__data {
+    font-size: 20px;
+    line-height: 14px;
+    margin: 0 0 5px 0;
+  }
+  .facts__block .facts__text {
+    font-size: 12px;
+    line-height: 16px;
+  }
+  .footer .footer__container {
+    min-height: 95px;
+  }
+  .footer__copyright {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    text-align: center;
+  }
+  .footer__copyright .copyright__text {
+    margin: 0 0 15px 0;
+  }
+}
+
+@media screen and (max-width: 574.98px) {
+  [class*="__container"] {
+    padding: 0 20px;
+  }
+  .header__logo svg {
+    width: 80px;
+    height: 70px;
+  }
+  .menu__item:not(:last-child) {
+    margin-right: 10px;
+  }
+  .menu__item .menu__link {
+    font-size: 12px;
+    line-height: 16px;
+  }
+  .get-started {
+    min-height: 560px;
+  }
+  .get-started .get-started__container {
+    margin: 60px 0 0 0;
+  }
+  .get-started__title {
+    font-size: 65px;
+  }
+  .get-started__title:not(:last-child) {
+    margin: 0 0 30px 0;
+  }
+  .btn-get-started {
+    margin-bottom: 30px;
+  }
+  .get-started__link {
+    font-size: 12px;
+  }
+  .get-started__link a {
+    padding-top: 10px;
+  }
+  .app {
+    padding-top: 30px;
+  }
+  .reviews {
+    min-height: 420px;
+  }
+  .reviews .reviews__container {
+    min-height: 420px;
+  }
+  .reviews__slider {
+    padding: 60px 0 60px 0;
+  }
+  .slide__review {
+    font-size: 24px;
+    line-height: 30px;
+  }
+  .slide__author {
+    line-height: 30px;
+  }
+  .swiper-horizontal > .swiper-pagination-bullets,
+  .swiper-pagination-bullets.swiper-pagination-horizontal,
+  .swiper-pagination-custom,
+  .swiper-pagination-fraction {
+    bottom: 30px;
+  }
+  .cuisines {
+    padding: 50px 0 0 0;
+  }
+}
